@@ -13,7 +13,7 @@ cd DigitRecognition
 python MnistIdentification
 ```
 
-### Prerequisites
+## Prerequisites
 
 ```
 pip install keras
@@ -43,18 +43,20 @@ pip install matplotlib
 pip install pygame
 ```
 
-#### Usage
+## Usage
 
 Be sure to change the directory. When you start the program, it will train the model. Be sure to train as much as you can, to be as accurate as possible. 
 
+## What I learned from this project:
+
+ - How to use Keras
+ - How to work with an Mnist data set
+ - How to use PyGame
+ - How to train an Ai model
 
 
 
 
-
-
-
-
-##### Acknowledgments
+## Acknowledgments
 
 This project was heavily influenced by https://github.com/baniraheja2197/Real-Time-Digit-Recognition
