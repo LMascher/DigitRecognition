@@ -3,45 +3,45 @@ Uses Keras and PyGame to build an Ai model that detects digits in real time. Thi
 
 ## Getting Started
 
-'''
+```
 git clone https://github.com/LMascher/DigitRecognition
-'''
-'''
+```
+```
 cd DigitRecognition
-'''
-'''
+```
+```
 python MnistIdentification
-'''
+```
 
 ### Prerequisites
 
-'''
+```
 pip install keras
-'''
-'''
+```
+```
 pip install tensorflow
-'''
-'''
+```
+```
 pip install --upgrade tensorflow
-'''
-'''
+```
+```
 pip install tensorflow-gpu
-'''
-'''
+```
+```
 pip install Pillow
-'''
-'''
+```
+```
 pip install opencv2
-'''
-'''
+```
+```
 pip install numpy
-'''
-'''
+```
+```
 pip install matplotlib
-'''
-'''
+```
+```
 pip install pygame
-'''
+```
 
 #### Usage
 
@@ -55,6 +55,6 @@ Be sure to change the directory. When you start the program, it will train the m
 
 
 
-
+##### Acknowledgments
 
 This project was heavily influenced by https://github.com/baniraheja2197/Real-Time-Digit-Recognition
