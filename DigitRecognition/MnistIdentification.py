@@ -19,10 +19,10 @@ from keras.layers import Dropout
 from keras.layers import Flatten
 
 # Create filepath for saving and boolean for whether or not to load the model
-path = '/home/idstudent/Desktop/LukeM/testingdigits/MnistIdentification/saved_models/'
-load_checkpoint = True
-testing_mode = False
-save_checkpoint = True
+path = '' # CHANGE THIS TO THE PATH WHERE YOU ARE SAVING YOUR MODELS
+load_checkpoint = True # Keep on if you want to save training progress
+testing_mode = False # Keep off if you want to train, off if you are done training and want to detect digits straight away
+save_checkpoint = True # Keep on if you want to load from your last save
 
 
 
@@ -92,7 +92,7 @@ pygame.init()
 # Setting the parameters for the PyGame Window
 width = 640
 height = 640
-radius = 35
+radius = 35 # Radius of the pen
 
 # Setting RGB Values for colors
 black = [0, 0, 0]
